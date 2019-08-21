@@ -1,23 +1,23 @@
-//#define _CRT_SECURE_NO_WARNINGS 1
-//#include<stdio.h>
-//#include<stdlib.h>
-//int main()
-//{
-//	int i = 0;
-//	int j = 0;
-//	for (i = 1; i <= 100; i++)
-//	{
-//		if (i % 10 == 9)//¼ÆËã¸öÎ»Êý³öÏÖ9µÄ´ÎÊý
-//		{
-//			j++;
-//		}
-//		if (i / 10 == 9)//¼ÆËãÊ®Î»Êý³öÏÖ9µÄ´ÎÊý
-//		{
-//			j++;
-//		}
-//	}
-//	printf("%d", j);
-//	system("pause");
-//	return 0;
-//}
-//
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+	int i = 0;
+	int j = 0;
+	for (i = 1; i <= 100; i++)
+	{
+		if (i % 10 == 9)//è®¡ç®—ä¸ªä½æ•°å‡ºçŽ°9çš„æ¬¡æ•°
+		{
+			j++;
+		}
+		if (i / 10 == 9)//è®¡ç®—åä½æ•°å‡ºçŽ°9çš„æ¬¡æ•°
+		{
+			j++;
+		}
+	}
+	printf("%d", j);
+	system("pause");
+	return 0;
+}
+
